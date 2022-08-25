@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TF</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body style="background: linear-gradient(to right,#ec008c, #fc6767);">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <!--<a class="navbar-brand " href="#">TF</a>-->
+          <a class="navbar-brand" href="#">
+            <img src="https://t4.ftcdn.net/jpg/01/84/69/17/360_F_184691764_xDEkrMu2Q9C0RKA5RPipgZdioXJAEtq1.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Joais</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Acessoríos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bracelete</a></li>
+                  <li><a class="dropdown-item" href="#">Anéis</a></li>
+                  <li><a class="dropdown-item" href="#">Brinco</a></li>
+                  <li><a class="dropdown-item" href="#">Colares</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Toque final</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+      <div class="Slider">
+
+        <div class="Slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide-primeiro">
+                <img src="https://s2.glbimg.com/awwvEnQP8fjiHK0vJMfJjzgiw3U=/0x0:607x426/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/Y/9/L4Dz4AQYK3GDw9onUB4A/2019-08-05-00080-091-v4.jpg" alt="imagen1">
+            </div>
+            <div class="slide-segundo">
+                <img src="https://assets.propmark.com.br/uploads/2021/10/gisele_bundchen_vivara_destaque.jpg" alt="imagen2">
+            </div>
+            <div class="slide-terceiro"></div>
+                <img src="https://editorial.cjfashion.com/wp-content/uploads/2019/12/vivara-gisele-bundchen-joia-natal-01.jpg" alt="imagen3">
+            </div>
+            <div class="slide-terceiro">    
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnPC4tT72Wgk9BajSWEMsfFsXjYIP_NoPgxQ&usqp=CAU" alt="imagen4">
+            </div>
+
+            <div class="navigation-auto">
+              <div class="auto.btn1"></div>
+              <div class="auto.btn2"></div>
+              <div class="auto.btn3"></div>
+              <div class="auto.btn4"></div>
+            </div>
+        </div>
+        <div class="manual-navigation">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    </body>
+</html>
