@@ -13,14 +13,16 @@
     }
    </Style>
     <link rel="stylesheet" href="Styles.css">
-</head>
-<body style="background: linear-gradient(to right,#ec008c, #fc6767);">
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <!--<a class="navbar-brand " href="#">TF</a>-->
-          <a class="navbar-brand" href="#">
-            <img src="https://t4.ftcdn.net/jpg/01/84/69/17/360_F_184691764_xDEkrMu2Q9C0RKA5RPipgZdioXJAEtq1.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
-          </a>
+    </head>
+    <body style="background: linear-gradient(to right,#ec008c, #fc6767);">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <!--<a class="navbar-brand " href="#">TF</a>-->
+                                            <!--Cabeçario-->
+
+             <a class="navbar-brand" href="#">
+              <img src="https://t4.ftcdn.net/jpg/01/84/69/17/360_F_184691764_xDEkrMu2Q9C0RKA5RPipgZdioXJAEtq1.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,23 +32,30 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Joais</a>
+                <a class="nav-link" href="#">Perfumes</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Perfumes Masculinos 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">importados</a></li>
+                  <li><a class="dropdown-item" href="#">Nacionais </a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Acessoríos
+                Perfumes Femininos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Bracelete</a></li>
-                  <li><a class="dropdown-item" href="#">Anéis</a></li>
-                  <li><a class="dropdown-item" href="#">Brinco</a></li>
-                  <li><a class="dropdown-item" href="#">Colares</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">importados</a></li>
+                  <li><a class="dropdown-item" href="#">Nacionais </a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Toque final</a>
+                <a class="nav-link disabled"></a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -56,25 +65,29 @@
           </div>
         </div>
     </nav>
-      <div class="Slider">
 
+                                           <!-- Carrosel   -->
         <div class="Slides">
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
             <input type="radio" name="radio-btn" id="radio4">
             <div class="slide-primeiro">
-                <img src="https://d2d7stu5fcdz3l.cloudfront.net/Custom/Content/Products/11/21/1121746_meia-alianca-tripla-com-safiras-esmeraldas-e-rubis-em-ouro-amarelo-71543-joias-vip_m5_637202307554657350.jpg" alt="imagen1" height="500" width="500">
+                <img src="C:\Users\wellington.omjunior\Pictures\Perfume  Sauvage Dior.PNG" alt="imagen1" height="500" width="500">
             </div>
+            <br>
             <div class="slide-segundo">
-                <img src="https://joiasvalentina.com.br/wp-content/uploads/2019/03/joia-7.jpg" alt="imagen2" height="500" width="500">
+                <img src="file:///C:/Users/wellington.omjunior/Pictures/Perfume%20%20Invictus.PNG" alt="imagen2" height="500" width="500">
             </div>
+            <br>
             <div class="slide-terceiro"></div>
-                <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(95)/helderjo/catalog/meia-alianca-pm/0186ma-meia-alianca-de-brilhantes-helder-joalheiros20190927162921.jpg" alt="imagen3" height="500" width="500">
+                <img src="C:\Users\wellington.omjunior\Pictures\Perfume 212 vip black.PNG" alt="imagen3" height="500" width="500">
             </div>
+            <br>
             <div class="slide-terceiro">    
-                <img src="https://d2d7stu5fcdz3l.cloudfront.net/Custom/Content/Products/10/77/1077959_meia-alianca-de-ouro-com-30-zirconias-61288-061288_m2_636869461452167211.jpg" alt="imagen4" height="500" width="500">
+                <img src="C:\Users\wellington.omjunior\Pictures\Perfume 212.PNG" alt="imagen4" height="500" width="500">
             </div>
+            <br>
 
             <div class="navigation-auto">
               <div class="auto.btn1"></div>
@@ -90,7 +103,5 @@
               <label for="radio4" class="manual-btn"></label>
         </div>
       </div>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     </body>
 </html>
